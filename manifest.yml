@@ -1,0 +1,7 @@
+---
+applications:
+  - name: petclinic
+    memory: 1G
+    env:
+      SPRING_PROFILES_ACTIVE: cloud
+      MY_PARAM: oded
